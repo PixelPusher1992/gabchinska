@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #997b57;
+    font-family: Whipsmart Bold, "Open Sans", sans-serif;
+    font-size: 14px;
+}
+html {
+     background: url('../images/back.jpg');
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+p {
+    display: inline-block;
+}
+
+
+.main {
+    padding-top: 80px;
+}
+.wrapper{
+    width: 1200px;
+    margin: auto;
+}
+
+
+/* Language panel styles*/
+.lang {
+    margin-bottom: 120px;
+}
+.lang:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.lang .button {
+    float: right;
+    border-radius: 10px;
+    margin-left: 15px;
+    text-align: center;
+    padding: 0 3px;
+    background: #997B57;
+    color: white;
+    border: 3px solid transparent;
+    transition: all .3s;
+}
+.lang .button:hover, .lang .button.active {
+    border: 3px solid #997b57;
+    background: none;
+    color: #997B57;
+}
+
+
+/*Content styles*/
+.content:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.content>div {
+    float: left;
+}
+
+
+/*Social links Styles*/
+.social {
+    padding-top: 145px;
+    width: 250px;
+}
+.social a{
+    text-decoration: none;
+    display: table;
+    margin-bottom: 16px;
+}
+.social a:hover {
+    text-decoration: underline;
+}
+.icon {
+    display: table-cell;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+}
+.link {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+.face {
+    text-transform: uppercase;
+}
+
+
+/*Main block Styles*/
+.promo {
+    width: 645px;
+    text-align: center;
+    margin-top: 40px;
+}
+.promo p {
+    display: inline-block;
+    width: 290px;
+    margin-top: 70px;
+}
+
+
+/*Contacts styles*/
+.contacts {
+    width: 305px;
+}
+.head {
+    font-size: 16px;
+    text-transform: uppercase;
+    display: table;
+}
+.head p {
+    padding-left: 10px;
+}
+.head span, .head p{
+    display: table-cell;
+    vertical-align: middle;
+}
+.city {
+    margin-top: 15px;
+}
+.city ul{
+    list-style: none;
+}
+.city ul li:first-child {
+    font-size: 16px;
+    text-transform: uppercase;
+}

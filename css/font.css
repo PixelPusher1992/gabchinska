@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Whipsmart Bold';
+  src: url('../fonts/Whipsmart Bold.eot');
+  src: url('../fonts/Whipsmart Bold.woff2') format('woff2'),
+  url('../fonts/Whipsmart-Bold.woff') format('woff'),
+  url('../fonts/Whipsmart-Bold.ttf') format('truetype'),
+  url('../fonts/Whipsmart-Bold.svg#Whipsmart-Bold') format('svg'),
+  url('../fonts/Whipsmart Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Whipsmart';
+    src: url('../fonts/Whipsmart.eot');
+    src: url('../fonts/Whipsmart.woff2') format('woff2'),
+    url('../fonts/Whipsmart.woff') format('woff'),
+    url('../fonts/Whipsmart.ttf') format('truetype'),
+    url('../fonts/Whipsmart.svg#Whipsmart') format('svg'),
+    url('../fonts/Whipsmart.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
